@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * main - prints an alphabet
+ * main - prints alphabet
  * Return: 0
  */
 

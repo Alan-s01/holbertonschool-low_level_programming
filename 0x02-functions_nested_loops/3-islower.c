@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * main - Check if lower
+ * main - Check if is lower
  * Return: 0
  */
 
