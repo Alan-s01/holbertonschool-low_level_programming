@@ -1,9 +1,9 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * main - check the code for Holberton School students.
+ * print_array - prints an array
  *
- * Return: Always 0.
+ * Return: none
  */
 void print_array(int *a, int n)
 {
