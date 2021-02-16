@@ -1,17 +1,26 @@
 #include "holberton.h"
 /**
- * rev_string - change the value of a string
+ * rev_string - prints a reverse sting
  *
- * Return: none
- */
+ * Return: nome
+ **/
 void rev_string(char *s)
 {
-	int i,c=0;
-	for(i = 0; *(s+i) != '\0'; i++)
+	int l;
+	int i;
+	char b, e;
+
+	for (l = 0; s[l] != '\0'; l++)
 	{
-		c++;
 	}
-	for(i = c - 1; i >= 0; i--)
+	l--;
+	for (i = 0; i <= l; i++)
 	{
+		b = s[i];
+		e = s[l];
+
+		s[i] = e;
+		s[l] = b;
+		l--;
 	}
 }
