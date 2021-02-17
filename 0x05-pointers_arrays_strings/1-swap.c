@@ -2,7 +2,8 @@
 
 /**
  * swap_int - take a pointer and updates the value
- * @n: swap value
+ * @a: swap a's value
+ * @b: swap b's value
  * Return: none
  */
 
