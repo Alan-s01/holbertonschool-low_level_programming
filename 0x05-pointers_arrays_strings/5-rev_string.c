@@ -2,7 +2,7 @@
 /**
  * rev_string - prints a reverse sting
  * @s: string's lenght
- * Return: nome
+ * Return: none
  **/
 void rev_string (char *s)
 {
