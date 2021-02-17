@@ -2,7 +2,9 @@
 
 /**
  * puts2 - prints characters
+ *
  * @str: prints string's lenght
+ *
  * Return: none
  */
 
@@ -20,3 +22,4 @@ void puts2 (char *str)
 	}
 	_putchar('\n');
 }
+

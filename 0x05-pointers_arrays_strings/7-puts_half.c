@@ -3,6 +3,8 @@
 /**
  * puts_half - prints half string
  *
+ * @str: string
+ *
  * Return: none
  */
 
