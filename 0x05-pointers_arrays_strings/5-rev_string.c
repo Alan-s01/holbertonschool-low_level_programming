@@ -1,10 +1,10 @@
 #include "holberton.h"
 /**
  * rev_string - prints a reverse sting
- *
+ * @s: string's lenght
  * Return: nome
  **/
-void rev_string(char *s)
+void rev_string (char *s)
 {
 	int l;
 	int i;
