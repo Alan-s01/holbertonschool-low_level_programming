@@ -1,7 +1,9 @@
 #include "holberton.h"
 /**
  * rev_string - prints a reverse sting
+ *
  * @s: string's lenght
+ *
  * Return: none
  **/
 void rev_string (char *s)

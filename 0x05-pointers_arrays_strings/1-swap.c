@@ -2,9 +2,12 @@
 
 /**
  * swap_int - take a pointer and updates the value
+ *
  * @a: swap a's value
+ *
  * @b: swap b's value
- * Return: none
+ *
+ *Return: none
  */
 
 void swap_int (int *a, int *b)
