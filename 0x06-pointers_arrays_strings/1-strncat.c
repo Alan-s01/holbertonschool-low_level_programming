@@ -8,7 +8,7 @@
  * Return: destiny
  */
 
-char *_strncat(char *dest, char *src, int n);
+char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0;
 	int k;
@@ -18,7 +18,7 @@ char *_strncat(char *dest, char *src, int n);
 		i++;
 	}
 
-	for (k = 0; k < n; k++;)
+	for (k = 0; k < n; k++)
 	{
 		dest[i = k] = src[k];
 
@@ -27,5 +27,5 @@ char *_strncat(char *dest, char *src, int n);
 			break;
 		}
 	}
-	return (dest)
+	return (dest);
 }
