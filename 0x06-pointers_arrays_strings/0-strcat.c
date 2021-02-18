@@ -2,11 +2,8 @@
 
 /**
  * _strcat - concatenates two strings
- *
  * @dest: destiny
- *
  * @src: source
- *
  * Return: destiny
  */
 
