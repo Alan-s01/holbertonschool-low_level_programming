@@ -2,11 +2,11 @@
 
 /**
  * *cap_string - capitalize a string
- * @a: array
+ * @s: array
  * Return: none
  */
 
-char *cap_string(char *a)
+char *cap_string(char *s)
 {
 	int i, j;
 	char x[] = {'.', '\n', '!', '\t', ',', ';', ' ',
