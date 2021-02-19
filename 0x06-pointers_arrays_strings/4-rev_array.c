@@ -2,7 +2,7 @@
 
 /**
  * reverse_array - reverse the content of an array of integers
- * @*a: array
+ * @a: array
  * @n: position
  * Return: destiny
  **/
