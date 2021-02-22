@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _memcpy - locates a string's character
+ * _memcpy - copies memory area
  * @dest: destiny
  * @src: source
  * @n: num
