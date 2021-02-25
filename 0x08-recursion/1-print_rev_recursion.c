@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _memset - fills memory with a constant byte
+ * _print_rev_recursion - prints a string in reverse
  * @s: string
  * Return: none
  */
@@ -12,3 +12,4 @@ void _print_rev_recursion(char *s)
 		_putchar(*s);
 	}
 }
+
