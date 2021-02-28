@@ -15,3 +15,4 @@ int main(int argc, char **argv)
 		printf("%s\n", argc[i]);
 	return (0);
 }
+
