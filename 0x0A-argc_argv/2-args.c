@@ -1,5 +1,6 @@
 #include "holberton.h"
 
+
 /**
  * main - prints all arguments
  * @argc: num
@@ -13,6 +14,7 @@ int main(int argc, char **argv)
 
 	for (i = 0; i < argc; i++)
 		printf("%s\n", argc[i]);
+
 	return (0);
 }
 
