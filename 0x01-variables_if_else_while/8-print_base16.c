@@ -1,20 +1,20 @@
 #include <stdio.h>
 
-
 /**
- * Alphabets - prints base16
+ * main - prints base16
  */
 
 int main(void)
 {
-	char nums;
-	for (nums = 48; nums < 58; nums++)
-		putchar(nums);
+	int i = 0;
+	char base16[] = "0123456789abcdef\n";
 
-	char letters;
-	for (letters = 'a'; letters <= 'f'; letters++)
-		putchar(letters);
-	putchar('\n');
-	return(0);
+	while (base16[i] != '\0')
+	{
+		putchar(base16[i]);
+		i++;
+	}
+
+	return (0);
 }
 

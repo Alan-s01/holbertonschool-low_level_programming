@@ -1,19 +1,29 @@
 #include <stdio.h>
 
 /**
- * Alphabets - prints the aplhabets
+ * main - prints the aplhabets
  */
 
 int main(void)
 {
-	char letter;
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
+	int i = 0;
+	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
+	char alphabetUp[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
 
-	char letters;
-	for (letters = 'A'; letters <= 'Z'; letters++)
-		putchar(letters);
-	putchar('\n');
-	return(0);
+	while (alphabet[i] != '\0')
+	{
+		putchar(alphabet[i]);
+		i++;
+	}
+
+	i = 0;
+
+	while (alphabetUp[i] != '\0')
+	{
+		putchar(alphabetUp[i]);
+		i++;
+	}
+
+	return (0);
 }
 
