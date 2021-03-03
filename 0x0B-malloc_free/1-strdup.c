@@ -1,6 +1,6 @@
 #include "holberton.h"
 
-/*
+/**
  * _strdup - returns a pointer to a newly allocated
  * @str: string
  * Return: NULL or 0

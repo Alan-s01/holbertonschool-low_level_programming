@@ -1,6 +1,6 @@
 #include "holberton.h"
 
-/*
+/**
  * alloc_grid - returns a pointer to 2d
  * @widht: width
  * @height: height
