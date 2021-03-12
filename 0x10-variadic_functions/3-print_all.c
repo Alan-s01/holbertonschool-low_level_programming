@@ -9,7 +9,7 @@ void f_float(va_list l);
  */
 void print_all(const char * const format, ...)
 {
-	unsigned int i, i2;
+	unsigned int i, j;
 	char *s = "";
 	va_list l;
 	t_prints types[] = {
@@ -32,7 +32,7 @@ void print_all(const char * const format, ...)
 				types[j].f(l);
 				s = ", ";
 			}
-			j++
+			j++;
 		}
 		i++;
 	}
