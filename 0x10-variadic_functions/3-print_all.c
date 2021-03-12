@@ -12,7 +12,7 @@ void print_all(const char * const format, ...)
 	unsigned int i, i2;
 	char *s = "";
 	va_list l;
-	prints types[] = {
+	t_prints types[] = {
 		{"i", f_int},
 		{"s", f_string},
 		{"c", f_char},
