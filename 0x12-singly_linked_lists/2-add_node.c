@@ -1,6 +1,11 @@
 #include "lists.h"
 
-
+/**
+ * add_node - adds a new node
+ * @head: list
+ * @str: string
+ * Return: head
+ */
 
 list_t *add_node(list_t **head, const char *str)
 {
@@ -11,7 +16,7 @@ list_t *add_node(list_t **head, const char *str)
 		return (NULL);
 
 	list = malloc(sizeof(list_t));
-	if (n == NULL)
+	if (list == NULL)
 		return (NULL);
 
 	for (i = 0; str[i] != '\0'; i++)
