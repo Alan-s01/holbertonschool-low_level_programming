@@ -12,7 +12,7 @@ size_t print_list(const list_t *h)
 	size_t c = 0;
 	int i;
 
-	for (i = 0; list != NULL; i++0)
+	for (i = 0; list != NULL; i++)
 	{
 		if (list->s == NULL)
 			printf("[0] (nil)\n");
