@@ -1,16 +1,20 @@
 #include "lists.h"
+
 /**
- *
- *
- *
- *
+ * add_node_end -adds a node at end
+ * @head: list
+ * @str: string
+ * Return: list
  */
+
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *list, *elist = *head;
 	int i, i2;
+
 	if (head == NULL || str == NULL)
 		return (NULL);
+
 	list = malloc(sizeof(list_t));
 	if (list == NULL)
 		return (NULL);
@@ -19,6 +23,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	list->str = strdup(str);
 	list->len = i;
 	list->next = NULL;
+
 	if (*head == NULL)
 		*head = list;
 	else
