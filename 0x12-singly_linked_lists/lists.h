@@ -7,17 +7,19 @@
 #include <stddef.h>
 
 /**
-  * list_t - data
-  * @s: string
-  * @len: lenght
-  * @list_t: node
-  */
-
-typedef struct list_t
+ * struct list_s - singly linked list
+ * @str: string - (malloc'ed string)
+ * @len: length of the string
+ * @next: points to the next node
+ *
+ * Description: singly linked list node structure
+ * for Holberton project
+ */
+typedef struct list_s
 {
-char *s;
-unsigned long len;
-struct list_t *next;
+    char *str;
+    unsigned int len;
+    struct list_s *next;
 } list_t;
 
 size_t print_list(const list_t *h);
