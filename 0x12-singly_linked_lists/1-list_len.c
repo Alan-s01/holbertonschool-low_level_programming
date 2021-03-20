@@ -12,7 +12,7 @@ size_t list_len(const list_t *h)
 	size_t c = 0;
 	int i;
 
-	for (1 = 0; list != NULL; i++)
+	for (i = 0; list != NULL; i++)
 	{
 		c++;
 		list = list->next;
