@@ -8,7 +8,7 @@
 
 size_t print_list(const list_t *h)
 {
-	const list_t list = *h;
+	const list_t *list = *h;
 	size_t c = 0;
 	int i;
 
