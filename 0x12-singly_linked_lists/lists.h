@@ -1,8 +1,9 @@
 #ifndef LIST_H
 #define LIST_H
 
-#include <>
-#include <>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 /**
   * list_t - data
