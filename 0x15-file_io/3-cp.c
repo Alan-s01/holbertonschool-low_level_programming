@@ -23,7 +23,7 @@ int main(int argc, char **argv)
 	f_from = argv[1];
 	f_to = argv[2];
 
-	open_files(f_from, f_to);
+	open_file(f_from, f_to);
 	exit(0);
 	return (0);
 }
@@ -56,7 +56,7 @@ int open_file(char *f_from, char *f_to)
 			exit(99);
 		}
 	}
-	read_files(from_fd, to_fd, f_from, f_to);
+	read_file(from_fd, to_fd, f_from, f_to);
 	if (close(from_fd) == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", from_fd);
@@ -90,7 +90,7 @@ int read_file(int from_fd, int to_fd, char *f_from, char *f_to)
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", f_from);
 		exit(98);
 	}
-	write_to_file(buff, to_fd, read_chars, f_to);
+	write_file(buff, to_fd, read_chars, f_to);
 	while (read_chars != 0)
 	{
 		read_chars = read(from_fd, buff, 1024);
@@ -101,7 +101,7 @@ int read_file(int from_fd, int to_fd, char *f_from, char *f_to)
 		}
 		if (read_chars == 0)
 			return (0);
-		write_to_file(buff, to_fd, read_chars, f_to);
+		write_file(buff, to_fd, read_chars, f_to);
 	}
 	return (0);
 }
